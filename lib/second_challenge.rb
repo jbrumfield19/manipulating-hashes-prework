@@ -9,5 +9,5 @@ def second_challenge
   #code your solution here!
  cart = []
   items=groceries.values
-  cart << items.join(', ' ' ')
+  cart << items.flat
 end
