@@ -15,7 +15,7 @@ def first_challenge
 
   #your code here
 
-contacts['Freddy Mercury'].delete_if?("strawberry")
+contacts['Freddy Mercury'].delete_if("strawberry")
 puts contacts
   #remember to return your newly altered contacts hash!
   contacts
