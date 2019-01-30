@@ -7,7 +7,6 @@ def second_challenge
   }
 
   #code your solution here!
- cart = []
   items=groceries.values
-  cart << items.flat
+  items.flatten
 end
