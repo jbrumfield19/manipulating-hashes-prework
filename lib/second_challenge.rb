@@ -7,7 +7,7 @@ def second_challenge
   }
 
   #code your solution here!
-
+cart =[]
   items=groceries.values
- items.join()
+  cart<< items.join(,)
 end
